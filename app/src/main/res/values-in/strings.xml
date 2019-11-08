@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyCinema</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_movie">Film</string>
+    <string name="title_tv">Acara TV</string>
+    <string name="title_favorite">Favorit</string>
+    <string name="change_language">Ganti Bahasa</string>
+
+    <string name="synopsis">Sinopsis</string>
+    <string name="rate">Penilaian</string>
+    <string name="language">Bahasa</string>
+    <string name="release">Rilis</string>
+
+    <string name="add_to_favorite">Menambahkan Favorit</string>
+    <string name="delete_from_favorite">Menghapus Favorit</string>
+    <string name="success_favorite">Favorit Sukses Ditambahkan</string>
+    <string name="failed_favorite">Favorit Gagal Ditambahkan</string>
+    <string name="done_favorite">Favorit Sudah Ditambahkan</string>
+    <string name="success_delete">Sukses Menghapus Favorit</string>
+    <string name="failed_delete">Favorit Sudah Dihapus</string>
+
+    <string name="empty_data">Data kosong</string>
+    <string name="movie">Film</string>
+    <string name="tv">Televisi</string>
+    <string name="favorite">Favorit</string>
+    <string name="search_movie">Cari Film</string>
+    <string name="search_tv">Cari Televisi</string>
+    <string name="daily_reminder">Pengingat Harian</string>
+    <string name="release_reminder">Pengingat Rilis</string>
+    <string name="daily_reminder_every_7_am">Pengingat harian tiap pukul 7 pagi</string>
+    <string name="reminding_of_films_released_every_day">Pengingat harian yang rilis tiap harinya</string>
+    <string name="daily_has_on">Pengingat harian dinyalakan</string>
+    <string name="daily_has_off">Pengingat harian dimatikan</string>
+    <string name="release_has_on">Pengingat release film dinyalakan</string>
+    <string name="release_has_off">Pengingat release film dimatikan</string>
+    <string name="appwidget_text">Widget Favorit</string>
+    <string name="empty_text">Tidak Ada Data</string>
+    <string name="reminder">Pengingat</string>
+</resources>

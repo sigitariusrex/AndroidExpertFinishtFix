@@ -1,0 +1,49 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 29
+    buildToolsVersion "29.0.2"
+    defaultConfig {
+        applicationId "com.kingleoners.mycinema"
+        minSdkVersion 22
+        targetSdkVersion 29
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        buildConfigField("String", "API_URL_TV", '"https://api.themoviedb.org/3/discover/tv?api_key=8813b7e0484fe59db9797c338f9f5784&language=en-US"')
+        buildConfigField("String", "API_URL_MOVIE", '"https://api.themoviedb.org/3/discover/movie?api_key=8813b7e0484fe59db9797c338f9f5784&language=en-US"')
+        buildConfigField("String", "API_URL_PHOTO", '"https://image.tmdb.org/t/p/w500"')
+        buildConfigField("String", "API_URL_KEY", '"8813b7e0484fe59db9797c338f9f5784"')
+        buildConfigField("String", "API_URL_MOVIE_SEARCH" , '"https://api.themoviedb.org/3/search/movie?api_key=8813b7e0484fe59db9797c338f9f5784&language=en-US&query="')
+        buildConfigField("String", "API_URL_TV_SEARCH" , '"https://api.themoviedb.org/3/search/tv?api_key=8813b7e0484fe59db9797c338f9f5784&language=en-US&query="')
+        buildConfigField("String", "API_URL", '"https://api.themoviedb.org/3/"')
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation 'androidx.appcompat:appcompat:1.1.0'
+    implementation 'androidx.constraintlayout:constraintlayout:1.1.3'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.1'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
+
+    implementation 'com.google.android.material:material:1.0.0'
+    implementation 'androidx.recyclerview:recyclerview:1.0.0'
+    implementation 'com.android.volley:volley:1.1.0'
+    implementation 'com.loopj.android:android-async-http:1.4.9'
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+    implementation 'com.github.bumptech.glide:annotations:4.10.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
+    implementation 'com.github.bumptech.glide:glide:4.10.0'
+    implementation 'com.github.bumptech.glide:annotations:4.10.0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.10.0'
+    implementation 'com.loopj.android:android-async-http:1.4.9'
+    implementation 'androidx.lifecycle:lifecycle-extensions:2.1.0'
+}

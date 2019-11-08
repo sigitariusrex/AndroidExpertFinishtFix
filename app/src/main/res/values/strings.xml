@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">MyCinema</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="title_movie">Movie</string>
+    <string name="title_tv">TV</string>
+    <string name="title_favorite">Favorite</string>
+    <string name="change_language">Change Language</string>
+
+    <string name="synopsis">Synopssis</string>
+    <string name="rate">Rating</string>
+    <string name="language">Language</string>
+    <string name="release">Release</string>
+
+    <string name="add_to_favorite">Add To Favorite</string>
+    <string name="delete_from_favorite">Delete Favorite</string>
+    <string name="success_favorite">Success Add Favorite</string>
+    <string name="failed_favorite">Failed Add Favorite</string>
+    <string name="done_favorite">You have added this into Favorite</string>
+    <string name="success_delete">Success Remove Favorite</string>
+    <string name="failed_delete">Done Remove Favorite</string>
+
+    <string name="empty_data">Data is Empty!</string>
+    <string name="movie">Movie</string>
+    <string name="tv">TV</string>
+    <string name="favorite">Favorite</string>
+    <string name="search_movie">Search Movie</string>
+    <string name="search_tv">Search TV</string>
+    <string name="daily_reminder">Daily Reminder</string>
+    <string name="release_reminder">Release reminder</string>
+    <string name="daily_reminder_every_7_am">Daily reminder every 7 am</string>
+    <string name="reminding_of_films_released_every_day">Reminder of films released every day</string>
+    <string name="daily_has_on">Daily reminder has turn on</string>
+    <string name="daily_has_off">Daily reminder has turn off</string>
+    <string name="release_has_on">Release reminder has turn on</string>
+    <string name="release_has_off">Release reminder has turn off</string>
+    <string name="appwidget_text">Favorite Widget</string>
+    <string name="empty_text">No Data</string>
+    <string name="reminder">Reminder</string>
+</resources>

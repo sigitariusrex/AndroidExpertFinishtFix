@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:layout_marginBottom="@dimen/fab_margin"
+    android:layout_marginLeft="@dimen/fab_margin"
+    android:layout_marginRight="@dimen/fab_margin"
+    android:id="@+id/movie_item"
+    android:layout_gravity="center">
+
+    <ImageView
+        android:id="@+id/mv_foto"
+        android:layout_width="100dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/mv_nama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@id/mv_foto"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="@+id/mv_foto"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/mv_foto"
+        app:layout_constraintTop_toTopOf="@+id/mv_foto"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/mv_nilai"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mv_nama"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@id/mv_foto"
+        android:ellipsize="end"
+        android:maxLines="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/mv_foto"
+        app:layout_constraintTop_toBottomOf="@+id/mv_nama" />
+
+    <TextView
+        android:id="@+id/mv_tanggal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mv_nilai"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@id/mv_foto"
+        android:ellipsize="end"
+        android:maxLines="1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/mv_foto"
+        app:layout_constraintTop_toBottomOf="@+id/mv_nilai" />
+
+    <TextView
+        android:id="@+id/mv_bahasa"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mv_tanggal"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@id/mv_foto"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/mv_foto"
+        app:layout_constraintTop_toBottomOf="@+id/mv_tanggal" />
+
+    <TextView
+        android:id="@+id/mv_deskripsi"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mv_bahasa"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="16dp"
+        android:layout_toEndOf="@id/mv_foto"
+        android:ellipsize="end"
+        android:maxLines="2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/mv_foto"
+        app:layout_constraintTop_toBottomOf="@+id/mv_bahasa" />
+</androidx.constraintlayout.widget.ConstraintLayout>
